@@ -1,0 +1,44 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+.venv/
+venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code / sistema
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Variables de entorno / secretos
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Datos locales
+# =========================
+data/landing/
+*.zip
+
+# =========================
+# Spark
+# =========================
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+*.log
